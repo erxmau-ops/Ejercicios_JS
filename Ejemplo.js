@@ -1,1 +1,46 @@
-  
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formas de usar JavaScript</title>
+</head>
+
+<body>
+
+    <h1>3 formas de implementar JavaScript en HTML</h1>
+
+    <!-- 1. JAVASCRIPT EN LÍNEA -->
+    <h2>1. JavaScript en línea</h2>
+
+    <button onclick="alert('JavaScript en línea')">
+        Presionar
+    </button>
+
+
+    <!-- 2. JAVASCRIPT INTERNO -->
+    <h2>2. JavaScript interno</h2>
+
+    <button onclick="mensajeInterno()">
+        Presionar
+    </button>
+
+    <script>
+        function mensajeInterno() {
+            alert("JavaScript interno");
+        }
+    </script>
+
+
+    <!-- 3. JAVASCRIPT EXTERNO -->
+    <h2>3. JavaScript externo</h2>
+
+    <button onclick="mensajeExterno()">
+        Presionar
+    </button>
+
+
+    <!-- Conectamos el archivo JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
